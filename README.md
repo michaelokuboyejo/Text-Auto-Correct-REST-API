@@ -36,3 +36,10 @@ Dependencies:
 ---
 
 - Flask
+
+# Next Steps
+
+1. User specific predictions
+2. Allow Clients add new words to the vocabulary 
+3. Multi-Language Support
+4. Implement Continuous learning
