@@ -7,9 +7,11 @@ NB: This is based on Edward Pie's tutorial on [Building An AutoCorrect Spelling 
 This is a simple auto correct project with a rest api. It uses the texts/words The Project Gutenberg EBook of The Adventures of Sherlock Holmes
 by Sir Arthur Conan Doyle gotten [here](https://norvig.com/big.txt) as corpus.
 
-How to run
-------------
 
+# How to run this project
+
+1. Install the project's dependencies using the command : `pip install -r requirements.txt`
+2. Download the corpus file and store in the project's folder, then reference in the index.py file.
 
 
 Demonstration
@@ -28,7 +30,7 @@ On successful startup of the service, hit the `/predict/{word_to_predict}` endpo
 
 
 
-![Screenshot](img.png?raw=true "Screenshot")
+![Screenshot](img.png?raw=true)
  
 Dependencies:
 ---
